@@ -1,0 +1,225 @@
+
+*{
+  font-family: Mulish;
+}
+
+.notes-outer {
+  min-height: 92vh;
+  padding: 60px 0px;
+  gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+ 
+ 
+.main-title {
+  color: #3b3b3b;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.main-content {
+  color: #666666;
+  font-size: 15px !important;
+  width: 100%;
+  margin-top: 8px;
+  height: 50px;
+  margin-bottom: 10px !important; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.main-date-div{
+  display: flex;
+  justify-content: space-between;
+}
+.main-date { 
+  color: #666666;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.main-cardoprice {
+  color: #6b7280;
+  font-size: 12px;
+  text-decoration: line-through;
+  margin-bottom: 0px;
+}
+
+.main-cardpercent {
+  color: #374151;
+  font-size: 12px;
+  margin-left: 8px;
+  font-weight: 600;
+}
+
+.main-oprice-per {
+  margin-top: 12px;
+  display: flex;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.add-btn {
+  font-size: 13px !important;
+  padding: 3px !important;
+}
+
+.buy-btn {
+  font-size: 13px !important;
+  padding: 3px !important;
+}
+
+.updatepage {
+  min-height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Buy-Main-Page {
+  margin: 20px 0px !important;
+  padding: 20px;
+  gap: 7rem;
+}
+
+.Buy-Main-Outer {
+  padding: 60px 0px 0px 0px;
+}
+
+.Buy-Main-Page-Outer {
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.buy-img {
+  height: 365px;
+  margin: 20px;
+}
+
+.buy-img-div {
+  display: flex;
+  justify-content: center;
+  border: solid 1px rgb(143, 143, 143);
+  border-radius: 10px;
+}
+
+.buy-detail-div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.buy-name {
+  font-size: 20px;
+}
+
+.buy-price {
+  font-size: 18px;
+  color: #fb6c21;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.buy-oprice {
+  font-size: 13px;
+  margin: 0px;
+}
+
+.buy-oprice > span {
+  text-decoration: line-through;
+}
+
+.buy-op-dis {
+  display: flex;
+  gap: 5px;
+  margin: 10px 0px;
+}
+
+.buy-discount {
+  font-size: 12px;
+  background-color: #279e3b;
+  color: #ffffff;
+}
+
+.stepperr-outer {
+  padding-top: 30px;
+}
+
+/* after buy */
+
+.buy-div {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.buy-title {
+  text-align: center;
+  font-family: math;
+  letter-spacing: 6px;
+}
+
+.buy-pur-div-outer {
+  display: flex;
+  justify-content: center;
+}
+
+.buy-pur-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.buy-pur-title {
+  text-align: center;
+  font-family: math;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.buy-button {
+  font-weight: 600 !important;
+}
+
+/* Add Mobile */
+
+.Addpage {
+  min-height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.view-note-outer{
+  
+  margin-top: 35px;
+  padding: 20px;
+}
+
+.view-note{
+  min-height: 92vh;
+  display: flex;
+  justify-content: center; 
+}
+
+.title-date{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}

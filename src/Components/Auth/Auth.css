@@ -1,0 +1,91 @@
+/* Sign In */
+
+/* Common For Auths */
+
+.login-main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 600px;
+}
+
+.title {
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.checkbox-div {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-div > p {
+  margin: 0px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.creds{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.creds>p{
+  margin: 0px
+}
+
+.signup-p {
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.login-bottom {
+  margin-top: 15px;
+  gap: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ 
+/* In Forget Page */
+.forget-exp {
+    color: #5a5a5a;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin: 10px 0px 0px 0px;
+}
+  
+
+
+
+
+
+
+
+.title-create {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+.title-create > h1 {
+  margin: 0px;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+.dashboard-maincard {
+  padding: 10px;
+  margin: 30px;
+  margin-top: 50px !important;
+}
+
