@@ -14,7 +14,7 @@ import Notes from "./Components/Mobiles/Notes";
 import Viewnote from "./Components/Mobiles/Viewnote";
 import { UpdateNote } from "./Components/Mobiles/UpdateNote";
  
-export const url="https://notes-taking-application-backend-yidi.onrender.com" 
+export const url="https://notes-taking-backend-i6ss.onrender.com" 
 
 
 function App() {
